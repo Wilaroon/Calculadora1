@@ -1,0 +1,79 @@
+xml version=1.0 encoding=utf-8
+LinearLayout
+    xmlnsandroid=httpschemas.android.comapkresandroid
+    xmlnstools=httpschemas.android.comtools
+    xmlnsapp=httpschemas.android.comapkres-auto
+    androidlayout_width=match_parent
+    androidlayout_height=match_parent
+    androidpaddingBottom=16dp
+    androidpaddingLeft=16dp
+    androidpaddingRight=16dp
+    androidpaddingTop=16dp
+    androidorientation=vertical
+    toolscontext=.Calculadora
+
+    EditText
+        androidid=@+idtxtN1
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidinputType=number
+        androidhint=Coloque el numero 1
+
+
+    EditText
+        androidid=@+idtxtN2
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidinputType=number
+        androidhint=Coloque el numero 2
+
+
+
+    LinearLayout
+        androidlayout_width=wrap_content
+        androidlayout_height=wrap_content
+        androidorientation=vertical
+
+
+        Button
+            androidid=@+idtxtSumar
+            androidlayout_width=80dp
+            androidlayout_height=55dp
+            androidtext=+
+            androidtextSize=30sp 
+
+        Button
+            androidid=@+idtxtRestar
+            androidlayout_width=80dp
+            androidlayout_height=55dp
+
+            androidtext=-
+            androidtextSize=30sp 
+
+        Button
+            androidid=@+idtxMultiplicar
+            androidlayout_width=80dp
+            androidlayout_height=55dp
+            androidtext=x
+            androidtextSize=30sp 
+
+        Button
+            androidid=@+idtxtDividir
+            androidlayout_width=80dp
+            androidlayout_height=55dp
+            androidtext=
+            androidtextSize=30sp 
+    LinearLayout
+
+    TextView
+        androidid=@+idtxtResul
+        androidlayout_width=240dp
+        androidlayout_height=141dp
+        androidlayout_gravity=right
+        androidgravity=center
+        androidtext=00
+        androidtextSize=120sp 
+
+
+LinearLayout
+
